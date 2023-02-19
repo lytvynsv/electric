@@ -1,0 +1,63 @@
+@import './variables';
+
+.container {
+    position: relative;
+    width: 1903px;
+    height: 4543px;
+    background-color: var(--color-backgroundmain-form);
+}
+
+.firstpage {
+    position: absolute;
+    width: 1903px;
+    height: 973px;
+    left: 0;
+    top:0;
+    background-color: var(--color-background-header);
+    background: url(./images/header.png);
+    box-sizing: border-box;
+}
+
+.logo {
+    position: absolute;
+    width: 96px;
+    height: 102px;
+    left: 771px;
+    bottom: 772px;
+    right: 1036px;
+    top: 99px;
+}
+
+.logo-section {
+    position: absolute;
+    width: 468px;
+    height: 102px;
+    left: 771px;
+    top: 99px;
+}
+
+.logo-text1 {
+    font-family: var(--font-family-base);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 112.5%;
+    color: var(--color-main-text);
+    margin-bottom: 0;
+}
+
+.logo-text2 {
+    font-family: var(--font-family-base);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 39.5%;
+    color: var(--color-main-text);
+}
+
+.text-general {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: var(--font-family-base);
+}
