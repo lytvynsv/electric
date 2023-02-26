@@ -34,25 +34,14 @@
   box-sizing: border-box;
 }
 
-.logo {
-  position: absolute;
-  width: 96px;
-  height: 102px;
-  left: 771px;
-  bottom: 772px;
-  right: 1036px;
-  top: 99px;
-}
-
-.logo-section {
+.logo-grid {
   position: absolute;
   width: 468px;
   height: 102px;
   left: 771px;
   top: 99px;
 }
-
-.logo-text1 {
+.logo-grid .logo-text1 {
   font-family: var(--font-family-base);
   font-style: normal;
   font-weight: 700;
@@ -61,8 +50,7 @@
   color: var(--color-main-text);
   margin-bottom: 0;
 }
-
-.logo-text2 {
+.logo-grid .logo-text2 {
   font-family: var(--font-family-base);
   font-style: normal;
   font-weight: 300;
