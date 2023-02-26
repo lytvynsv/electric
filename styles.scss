@@ -19,6 +19,7 @@
 }
 
 .logo-grid {
+    display: grid;
     position: absolute;
     width: 468px;
     height: 102px;
@@ -26,9 +27,9 @@
     top: 99px;
 
     .logo-text1 {
-    font-family: var(--font-family-base);
-    font-style: normal;
-    font-weight: 700;
+        font-family: var(--font-family-base);
+        font-style: normal;
+        font-weight: 700;
         font-size: 64px;
         line-height: 112.5%;
         color: var(--color-main-text);
@@ -42,13 +43,34 @@
         font-size: 27px;
         line-height: 39.5%;
         color: var(--color-main-text);
+        letter-spacing: 10px;
     }
 }
 
+.lorem {
+    position: absolute;
+    width: 358px;
+    height: 136px;
+    left: 771px;
+    top: 360px;
+}
 
+.lorem-small {
+    font-family: var(--font-family-base);
+    color: var(--color-main-text);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 112.5%;
+}
 
-
-
+.lorem-big {
+    font-family: var(--font-family-base);
+    font-weight: 900;
+    font-size: 115px;
+    line-height: 97.18px;
+    color: var(--color-headlines-button);
+}
 
 .text-general {
     font-weight: 500;
